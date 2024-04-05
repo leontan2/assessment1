@@ -1,10 +1,11 @@
+import React from 'react';
 import './App.css';
 import AuthorForm from './pages/AuthorForm';
 import UsersList from './pages/UsersList';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app-container">
       <div className="left-panel">
         <AuthorForm />
       </div>
@@ -14,6 +15,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;

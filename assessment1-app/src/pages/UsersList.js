@@ -23,11 +23,8 @@ const UsersList = () => {
 
   return (
     <div>
-      <div>
-        <h1>Fetched Users List</h1>
-      </div>
-
       <div className="user-cards-container">
+        <h1>Fetched Users List</h1>
         {users.map(user => (
           <FetchedCard
             key={user.id}

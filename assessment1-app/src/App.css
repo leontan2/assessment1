@@ -38,10 +38,30 @@
   }
 }
 
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 50px;
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./assets/gov-tech.jpg');
+  background-size: contain;
+  background-repeat: repeat; 
+  /* background: rgba(255, 255, 255, 0.3); */
+}
+
 .left-panel {
   flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .right-panel {
   flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
 }

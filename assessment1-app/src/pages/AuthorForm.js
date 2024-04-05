@@ -26,7 +26,7 @@ const AuthorForm = () => {
       <div className="form-container">
         <form onSubmit={handleSubmit} onReset={handleReset}>
           <label>
-            Author Name:
+          <strong>Author Name:</strong>
           </label>
           <input
             type="text"
