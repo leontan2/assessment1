@@ -6,7 +6,7 @@
 }
   
 .user-card {
-    width: 20%; /* Set a fixed width for each card */
+    width: 50%; /* Set a fixed width for each card */
     background-color: #217685;
     border: 1px solid #cccccc;
     border-radius: 5px;
@@ -27,7 +27,7 @@
 }
   
 .fetched-user-card {
-    width: 20%; /* Set a fixed width for each card */
+    width: 50%; /* Set a fixed width for each card */
     background-color: #1eaf83;
     border: 1px solid #cccccc;
     border-radius: 50px;

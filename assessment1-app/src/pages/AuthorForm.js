@@ -8,7 +8,6 @@ const AuthorForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
     console.log('Submitted author name:', authorName);
 
     if (authorName.trim() !== "") {

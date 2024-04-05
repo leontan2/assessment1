@@ -29,7 +29,7 @@ const FetchedCard = ({ index, name, username, email, address, phone, website, co
             </p>
             <p>
                 <FontAwesomeIcon icon={faBuilding} />
-                <span> {company.name} - {company.catchPhrase}</span>
+                <span> {company.name} </span>
             </p>
         </div>
     );
